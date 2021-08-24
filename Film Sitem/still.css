@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+ 
+    }
+    body {
+   margin:0;
+   padding:0;
+    background-color: white;
+    }
+    .carousel-item{
+        height:100vh;
+        min-height:100vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        
+    }
+    .izle{
+       border-bottom: 3px solid white; 
+       border-top: 3px solid white;
+       background-color: rgb(36, 35, 35);
+       color:white;
+       
+       
+    }
+    .izle p{
+ margin-left:650px;
+ font-size:20pt;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .filmler{
+        
+       margin-left:130px;
+        
+    }
+    .filmler a{
+        color:black;
+      
+    }
+    
+    .filmler a:hover{
+        color:rgb(243, 26, 26);
+      
+    }
+    .footer{
+        background-color: rgb(0, 0, 0);
+         border-top:3px solid white;
+         color:rgba(241, 241, 12, 0.432);
+         width:1515px;
+         height:300px;
+         }
+
+         .footer p{
+             margin-left:1000px;
+             margin-bottom: 600px;
+         }
+    
+         
+         .iletişimformum {
+            height: 5px;
+            width: 60%;
+            margin:auto;
+            font-family:'Dancing Script', cursive;
+            float:left;
+            padding-left:100px;
+            color:rgb(27, 2, 6);
+           
+           
+        }
+        
+        .formum2{
+            border:2px solid yellow);
+            background-color:rgb(107, 5, 5);
+            font-size:12pt;
+            
+        }
+        
+        .iletişimm{
+            width:44rem;
+            border:1px solid black;
+            border-bottom:0.2 rem dashed yellow);
+            margin:3 rem 0;
+            padding:1rem 1rem 1rem 0;
+            color:rgb(80, 3, 3);
+            background-color: rgb(252, 237, 239);
+            font-size:15pt;
+            float:left;
+            padding-left:50px;
+            font-weight:bold;
+            
+        }
+        
+        .iletişimmm{
+            width:44rem;
+            border:1px solid black;
+            border-bottom:3 rem dashed yellow;
+            margin:3rem 0;
+            padding:4rem 4rem 4rem;
+            color:rgb(85, 0, 0);
+            background-color: rgb(252, 237, 239);
+            font-size:15pt;
+        }
+        @media screen and (max-width:768px){
+            .iletişimformum{
+               float:left;
+               top:20px;
+            }  
+            .iletişimmm{
+                float:left;
+                top:20px; 
+            }
+            .iletişimm{
+                float:left;
+                top:20px; 
+            }
+            .formum2{
+                float:left;
+                top:20px; 
+            }
+        }
+        @media screen and (max-width:500px){
+            .iletişimformum{
+               float:left;
+               top:50px;
+            }  
+            .iletişimmm{
+                float:left;
+                top:50px; 
+            }
+            .iletişimm{
+                float:left;
+                top:50px; 
+            }
+            .formum2{
+                float:left;
+                top:50px; 
+            }
+        }
+        .header{
+            color:rgb(78, 2, 2);
+            font-family:'Dancing Script', cursive;
+            float:left;
+        }
+        form{
+            float:left;
+        }        
+
+    
